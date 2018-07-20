@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".NewUser">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_gravity="top"
+            android:background="@null"
+            android:drawableLeft="@drawable/backundo2"
+            android:text="New User"
+            android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="It seems you are a new user. Please register!" />
+
+    <ImageView
+
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/elipsmandarin" />
+
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="253dp"
+        android:background="@null"
+        android:text="Photo is required" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="295dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="229dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="FirstName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="295dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LustName" />
+
+    <EditText
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:text="We will send you Security Code via SMS"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:background="#E0E0E0"
+        android:text="Login with Code"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

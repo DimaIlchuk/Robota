@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="top"
+        android:background="@null"
+        android:drawableLeft="@drawable/backundo2"
+        android:text="Enter Code"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="332dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@null"
+        android:text="Lorem Suspendisse ut tellus euismod, dictum dui cursus, fringilla nibh"
+        android:textAlignment="center"
+        android:textSize="14dp" />
+
+    <TextView
+        android:background="@null"
+        android:id="@+id/textView"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+        android:text="____"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <EditText
+        android:layout_width="337dp"
+        android:layout_height="33dp"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:text="The code does not come?"
+        android:textAlignment="center"
+        android:textColor="#039BE5"
+        android:textSize="14dp" />
+
+</RelativeLayout>
